@@ -1,0 +1,26 @@
+<html>
+<head>
+ <script src="angular.min.js"></script> 
+
+</head>
+<body ng-app="abm">
+<div ng-controller="user">
+ <form>
+   <fieldset>
+     <label>name</label>     
+	 <input type="text" ng-model="user.name"  />
+	 </br>
+     <label>surname</label>     <input type="text" ng-model="user.surname"  />
+     </br>
+	 <label>dni</label>     <input type="text" ng-model="user.dni"  />
+	 </br>
+	 <button ng-click="subir(user)">ingresar </button>
+	 
+   </fieldset>
+ </form>
+</div>
+</body>
+</html>
+<script src="script.js"></script>
+<script src="service.js"></script>
+<script src="factory.js"></script>
